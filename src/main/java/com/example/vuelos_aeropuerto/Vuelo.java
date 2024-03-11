@@ -6,8 +6,8 @@ public class Vuelo {
     private Long id;
     private String origen;
     private String destino;
-    private LocalDateTime fechaHoraSalida;
-    private LocalDateTime fechaHoraLlgada;
+    private String fechaHoraSalida;
+    private String fechaHoraLlgada;
     private Double precioEnPesos;
     private String frecuncia;
 
@@ -17,7 +17,7 @@ public class Vuelo {
 
     //constructor con atributos
 
-    public Vuelo(Long id, String origen, String destino, LocalDateTime fechaHoraSalida, LocalDateTime fechaHoraLlgada, Double precioEnPesos, String frecuncia) {
+    public Vuelo(Long id, String origen, String destino, String fechaHoraSalida, String fechaHoraLlgada, Double precioEnPesos, String frecuncia) {
         this.id = id;
         this.origen = origen;
         this.destino = destino;
@@ -55,19 +55,19 @@ public class Vuelo {
         this.destino = destino;
     }
 
-    public LocalDateTime getFechaHoraSalida() {
+    public String getFechaHoraSalida() {
         return fechaHoraSalida;
     }
 
-    public void setFechaHoraSalida(LocalDateTime fechaHoraSalida) {
+    public void setFechaHoraSalida(String fechaHoraSalida) {
         this.fechaHoraSalida = fechaHoraSalida;
     }
 
-    public LocalDateTime getFechaHoraLlgada() {
+    public String getFechaHoraLlgada() {
         return fechaHoraLlgada;
     }
 
-    public void setFechaHoraLlgada(LocalDateTime fechaHoraLlgada) {
+    public void setFechaHoraLlgada(String fechaHoraLlgada) {
         this.fechaHoraLlgada = fechaHoraLlgada;
     }
 

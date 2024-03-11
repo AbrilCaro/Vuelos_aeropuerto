@@ -16,7 +16,7 @@ public class VuelosAeropuertoApplication {
 
     //objeto vuelo
 
-        Vuelo vuelo = new Vuelo(1515L, "Buenos Aires", "Miami", LocalDateTime.now(), LocalDateTime.now().plusHours(2), 150000.50, "Diaria");
+        Vuelo vuelo = new Vuelo(1515L, "Buenos Aires", "Miami", "09-03-23 01:05", "10-03-23 13:25", 150000.50, "Diaria");
 
         System.out.println("Informacion de su vuelo:");
         System.out.println("ID: " + vuelo.getId());
